@@ -3,13 +3,15 @@
     padding: 15px 20px 15px 20px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 786px) {
     .nav-bar {
       display: flex;
+      max-width: 1024px;
+      margin: auto;
     }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 786px) {
     .button-menu {
       display: none;
     }
@@ -36,11 +38,12 @@
     width: 100%;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 786px) {
     .search-container {
         width: 40%;
         margin-top: 0;
         order: 1;
+        flex: 1 2 auto;
     }
 }
 
@@ -69,15 +72,25 @@
     height: 20px;
 }
 
-@media screen and (min-width: 640px) {
-    .logo {
-        order: 0;
+@media screen and (min-width: 786px) {
+    .profite-logo img {
+        width: auto;
+        height: 30px;
     }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 786px) {
+    .logo {
+        order: 0;
+        flex: 1 1 auto;
+    }
+}
+
+@media screen and (min-width: 786px) {
     .cart-button {
-        order: 2;
+        order: 3;
+        flex: 0 1 auto;
+        margin-left: 10px;
     }
 }
 
@@ -100,4 +113,45 @@
 .cart-num {
     color: #fff;
     font-size: 10px;
+}
+
+.account-container {
+    display: none;
+}
+
+@media screen and (min-width: 786px) {
+    .account-container {
+        display: flex;
+        order: 2;
+        flex: 1 1 auto;
+        justify-content: flex-end;
+    }
+
+    .account-container button {
+        display: flex;
+        align-items: center;
+    }
+    
+    .account-container span {
+        margin-left: 5px; 
+        color: #7A7A7A;
+    }
+}
+
+.language-container {
+    display: none;
+}
+
+@media screen and (min-width: 786px) {
+    .language-container {
+        order: 4;
+        width: 145px;
+        height: 30px;
+        justify-content: space-evenly;
+        border-left: 1px #7A7A7A solid;
+        display: flex;
+        flex: 0 1 auto;
+        align-items: center;
+        margin-left: 10px;
+    }
 }

@@ -14,8 +14,8 @@ class NavBar extends Component {
                     </div>
                     
                     <div className="logo">
-                        <a className="profite-logo">
-                            <img src={require('../../assets/images/profite-logo.png')} alt="Menu" />
+                        <a href="./" className="profite-logo" title="Profite">
+                            <img src={require('../../assets/images/profite-logo.png')} alt="Profite" />
                         </a>
                     </div>
                     
@@ -27,10 +27,32 @@ class NavBar extends Component {
                             </span>
                         </button>
                     </div>
+
                     <div className="search-container">
                         <form action="#">
                             <input type="search" placeholder="O que está procurando?"/>
                         </form>
+                    </div>
+
+                    <div className="account-container">
+                        <button>
+                            <img className="user-img" src={require('../../assets/images/user.svg')} alt="Login" />
+                            <span>Minha Conta</span>
+                        </button>
+                    </div>
+
+                    <div className="language-container">
+                        <a title="Português">
+                            <img src={require('../../assets/images/lang-br.svg')} alt="Português" />
+                        </a>
+
+                        <a title="Espanhol">
+                            <img src={require('../../assets/images/lang-es.svg')} alt="Espanhol" />
+                        </a>
+
+                        <a title="Inglês">
+                            <img src={require('../../assets/images/lang-en.svg')} alt="Inglês" />
+                        </a>
                     </div>
                 </div>
             </div>

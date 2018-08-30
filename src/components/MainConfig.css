@@ -48,3 +48,7 @@ h2 {
     font-weight: bold;
     font-size: 1.1em;
 }
+
+a:hover {
+    cursor: pointer
+}
