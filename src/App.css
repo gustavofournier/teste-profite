@@ -1,0 +1,7 @@
+@import "ResetCSS.css";
+
+@import "./components/MainConfig.css";
+@import "./components/header/NavBar.css";
+@import "./components/main/Banner.css";
+@import "./components/main/Produtos.css";
+@import "./components/footer/About.css";
