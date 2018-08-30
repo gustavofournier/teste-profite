@@ -4,7 +4,7 @@ import Slider from "react-slick";
 class Banner extends Component {
     render () {
         var settings = {
-            dots: false,
+            dots: true,
             infinite: true,
             autoplay: true,
             pauseOnHover: true,
@@ -23,7 +23,7 @@ class Banner extends Component {
                     <div className="slider-item">
                         <div className="banner"></div>
                         <div className="slider-title">
-                            <span className="title-bar">Lorem ipsum dolor sit amet.</span>
+                            <span className="title-bar">sed do eiusmod tempor incididunt ut labore.</span>
                         </div>
                     </div>
                     <div className="slider-item">

@@ -31,3 +31,21 @@
     left: 0;
     align-items: center;
 }
+
+.slider span {
+    position: relative;
+    opacity: 0;
+    left: -20px;
+}
+
+.slick-active span {
+    opacity: 1;
+    left: 0;
+    transition: 1s ease;
+    transition-delay: 500ms;
+}
+
+.slider .slick-dots {
+    height: 30px;
+    bottom: 0;
+}
