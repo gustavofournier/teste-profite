@@ -6,7 +6,7 @@ class Banner extends Component {
         var settings = {
             dots: false,
             infinite: true,
-            // autoplay: true,
+            autoplay: true,
             pauseOnHover: true,
             arrows: false
         };
