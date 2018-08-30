@@ -1,0 +1,84 @@
+.about {
+    width: 100%;
+    height: 386px;
+    background-color: #011627;
+    border-bottom: 5px solid #2EC4B6;
+}
+
+.about h2 {
+    color: #fff;
+}
+
+.location-container {
+    padding: 20px 20px 15px 20px;
+}
+
+.adresses {
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.adresses p {
+    line-height: 150%;
+}
+
+.rj, .sp {
+    float: left;
+    width: 45%;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.rj {
+    margin-left: 10%;
+}
+
+
+.contact-container {
+    padding: 0 17% 0 17%;
+}
+
+.btn-contact, .btn-contact-online {
+    width: 100%;
+    border: none;
+    padding: 12px 0 12px 10%;
+    background-color: #FF9F1C;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-contact-online {
+    padding: 8px 0 8px 10%;
+    margin-top: 20px;
+}
+
+.btn-contact img, .btn-contact-online img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.btn-contact span, .btn-contact-online span {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.creation-container {
+    padding: 20px 17% 20px 17%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.creation-container p {
+    color: #fff;
+    font-size: 11px;
+}
+
+.creation-container img {
+    margin-top: 5px;
+}
+
