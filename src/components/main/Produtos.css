@@ -1,6 +1,8 @@
 .produtos {
     padding: 15px 7px 15px 7px;
+    max-width: 1024px;
     height: 340px;
+    margin: auto;
 }
 
 .produtos-h2 {
@@ -89,6 +91,8 @@
     color: #2EC4B6;
 }
 
+/* Slider config */
+
 .slick-dots li button:before {
     color: #BDBDBD;
     opacity: 1;
@@ -102,4 +106,26 @@
 .slick-dots li.slick-active button:before {
     opacity: 1;
     color: #FF9F1C;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+}
+
+.slick-next:before {
+    content: "\276F";
+}
+
+.slick-prev:before {
+    content: "\276E";
+}
+
+.slick-list div:active, .slick-list div:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+
+.produtos .slick-arrow {
+    color: black;
 }

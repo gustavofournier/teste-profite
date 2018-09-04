@@ -6,9 +6,19 @@ class Banner extends Component {
         var settings = {
             dots: true,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
+            draggable: false,
+            speed: 500,
             pauseOnHover: true,
-            arrows: false
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 786,
+                    settings: {
+                        arrows: false
+                    }
+                }
+            ]
         };
 
         return (

@@ -4,13 +4,26 @@ import Slider from "react-slick";
 class Produtos extends Component {
     render () {
         var settings = {
-            dots: true,
             infinite: true,
+            arrows: true,
+            dots: false,
+            draggable: false,
             speed: 500,
-            slidesToShow: 2,
-            slidesToScroll  : 2,
             autoplay: true,
-            arrows: false
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            initialSlide: 0,
+            responsive: [
+                {
+                    breakpoint: 786,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
         };
         
         return (

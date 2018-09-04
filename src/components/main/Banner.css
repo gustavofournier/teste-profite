@@ -11,8 +11,22 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 786px) {
+    .banner {
+        width: 50%;
+        height: 430px;
+        float: right;
+    }
+}
+
 .slider-item {
     position: relative;
+}
+
+@media screen and (min-width: 786px) {
+    .slider {
+        background: #011627;
+    }
 }
 
 .slider-item span {
@@ -32,6 +46,21 @@
     align-items: center;
 }
 
+@media screen and (min-width: 786px) {
+    .slider-title {
+        width: 50%;
+        float: left;
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .slick-slider {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
+
 .slider span {
     position: relative;
     opacity: 0;
@@ -48,4 +77,9 @@
 .slider .slick-dots {
     height: 30px;
     bottom: 0;
+}
+
+.slick-next {
+    position: absolute;
+    right: 10px;
 }
