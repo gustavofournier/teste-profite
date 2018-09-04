@@ -1,20 +1,43 @@
-.about {
+.about-container {
     width: 100%;
     height: 386px;
     background-color: #011627;
     border-bottom: 5px solid #2EC4B6;
 }
 
-.about h2 {
+@media screen and (min-width: 786px) {
+    .about-container {
+        height: 223px;
+        border-bottom: 5px solid #2EC4B6;
+    }
+}
+
+.about-aux {
+    height: 100%;
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 786px) {
+    .about-aux {
+        flex-direction: initial;
+    }
+}
+
+.about {
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+}
+
+.about-container h2 {
     color: #fff;
 }
 
-.location-container {
-    padding: 20px 20px 15px 20px;
-}
-
 .adresses {
-    margin-top: 15px;
     overflow: auto;
 }
 
@@ -55,7 +78,7 @@
 
 .btn-contact img, .btn-contact-online img {
     vertical-align: middle;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .btn-contact span, .btn-contact-online span {
@@ -68,17 +91,19 @@
 
 
 .creation-container {
-    padding: 20px 17% 20px 17%;
+    padding: 0 17% 0 17%;
     display: flex;
     justify-content: space-between;
-}
-
-.creation-container p {
     color: #fff;
     font-size: 11px;
+}
+
+@media screen and (min-width: 786px) {
+    .creation-container {
+        padding: 0;
+    }
 }
 
 .creation-container img {
     margin-top: 5px;
 }
-
